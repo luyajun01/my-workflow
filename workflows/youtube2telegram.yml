@@ -2,11 +2,9 @@ name: Send a telegram message when new Youtube videos update
 on:
   youtube:
     channel_id:
-      - UCnCikd0s4i9KoDtaHPlK-JA
-      - UCseUQK4kC3x2x543nHtGpzw
+      - UCKMT8Wn6USyyhU6YzDYgDzQ
     playlist_id:
-      - PL99D544ED5B1E58D8
-      - PL2qc-hH9Ip-SSUaZd_G8IxtecK0WZ-af-
+      - PL2ec2fnWaf1F4TubVXWgCAoyby2fqfRKS
 jobs:
   telegram:
     name: Send a telegram message
