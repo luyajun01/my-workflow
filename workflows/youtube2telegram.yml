@@ -13,8 +13,8 @@ jobs:
       - name: Send a telegram message
         uses: appleboy/telegram-action@v0.1.0
         with:
-          to: ${{ tonylu_bot }}
-          token: ${{ '6359937870:AAH5YwAteVJvxYOmMKlaSzgv61aVMX_QTTY'}}
+          to: ${{ 6359937870 }}
+          token: ${{ 'AAH5YwAteVJvxYOmMKlaSzgv61aVMX_QTTY'}}
           message: |
             *${{on.youtube.outputs.title}}*
             
